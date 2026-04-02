@@ -188,7 +188,7 @@ psql -h 127.0.0.1 -U bill_user_admin -d bill_payment_tracker -c "SELECT version(
 }
 ```
 3. Create **Access key** (use case: Application running on EC2)
-4. Save the **Access Key ID** and **Secret Access Key**
+4. Save the **Access Key ID** and **Secret Access Key** — **NEVER commit these to git**
 
 > **Alternative (recommended):** Attach an IAM Role with the S3 policy directly to the
 > EC2 instance instead. Go to EC2 → Instance → Actions → Security → Modify IAM role.
