@@ -1,0 +1,16 @@
+{
+  "name": "bill-payment-tracker",
+  "version": "1.0.0",
+  "description": "Team bill payment tracker with WhatsApp integration",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && NODE_ENV=production node server.js",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

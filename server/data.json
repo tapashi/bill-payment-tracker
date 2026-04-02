@@ -1,0 +1,227 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "tapashi Acharyya",
+      "phone": "7439905133",
+      "email": null,
+      "is_admin": 0,
+      "created_at": "2026-03-30T14:57:07.405Z"
+    },
+    {
+      "id": 2,
+      "name": "tapashi",
+      "phone": "8553861506",
+      "email": null,
+      "is_admin": 1,
+      "created_at": "2026-03-30T14:57:41.266Z"
+    },
+    {
+      "id": 3,
+      "name": "Manish",
+      "phone": "9650473002",
+      "email": null,
+      "is_admin": 0,
+      "created_at": "2026-04-01T05:42:45.856Z"
+    }
+  ],
+  "paymentRequests": [
+    {
+      "id": 1,
+      "title": "test",
+      "amount": 1,
+      "payment_details": "tacharyya15@okhdfcbank",
+      "message_template": "Hi {name}! 👋\n\nA payment request has been create\nbirthday Fund\n💰 Amount: ₹{amount}\n💳 Payment Details: {payment_details}\n\nPlease make the payment and confirm here:\ntacharyy15@gmail.com\n\nThank you! 🙏",
+      "is_active": 0,
+      "created_at": "2026-03-30T15:00:06.755Z"
+    },
+    {
+      "id": 2,
+      "title": "Test request2",
+      "amount": 1,
+      "payment_details": "Gpay : 8553861506\nPhone pay : 8553861506",
+      "message_template": "Hi {name}! 👋\n\nA payment request has been created:\n📋 *{title}*\n💰 Amount: ₹1\n💳 Payment Details: \n{payment_details}\n\nPlease make the payment and confirm here:\n{confirmation_url}\n\nThank you! 🙏",
+      "is_active": 0,
+      "created_at": "2026-04-01T05:42:07.164Z"
+    },
+    {
+      "id": 3,
+      "title": "TestRequest2",
+      "amount": 1,
+      "payment_details": "Gpay : 8553861506\nPhone pay : 8553861506",
+      "message_template": "Hi {name}! 👋\n\nA payment request has been created:\n📋 *{title}*\n💰 Amount: ₹{amount}\n💳 Payment Details: {payment_details}\n\nPlease make the payment and confirm here:\n{confirmation_url}\n\nThank you! 🙏",
+      "is_active": 0,
+      "created_at": "2026-04-01T05:43:25.103Z"
+    },
+    {
+      "id": 4,
+      "title": "Test request for Birthday",
+      "amount": 1,
+      "payment_details": "tacharyya15@okhdfcbank",
+      "message_template": "Hi {name}! 👋\n\nA payment request has been created:\n📋 *{title}*\n💰 Amount: ₹{amount}\n💳 Payment Details: {payment_details}\n\nPlease make the payment and confirm here:\n{confirmation_url}\n\nThank you! 🙏",
+      "is_active": 1,
+      "created_at": "2026-04-01T11:13:55.667Z"
+    },
+    {
+      "id": 5,
+      "title": "Hello test",
+      "amount": 1,
+      "payment_details": "admin@upi",
+      "message_template": "Hi {name}! 👋\n\nA payment request has been created:\n📋 *{title}*\n💰 Amount: ₹{amount}\n💳 Payment Details: {payment_details}\n\nPlease make the payment and confirm here:\n{confirmation_url}\n\nThank you! 🙏",
+      "is_active": 1,
+      "created_at": "2026-04-01T11:24:44.206Z"
+    }
+  ],
+  "paymentStatuses": [
+    {
+      "id": 1,
+      "payment_request_id": 1,
+      "member_id": 2,
+      "status": "pending",
+      "confirmation_token": "e659d481-bfbf-4da4-8c64-be69d86d1c85",
+      "notified_at": "2026-03-30T15:00:44.778Z",
+      "reminder_sent_at": null,
+      "paid_at": null
+    },
+    {
+      "id": 2,
+      "payment_request_id": 1,
+      "member_id": 1,
+      "status": "pending",
+      "confirmation_token": "13fdae31-fd07-4e1d-90a3-d7d00057a80e",
+      "notified_at": "2026-03-30T15:00:47.110Z",
+      "reminder_sent_at": null,
+      "paid_at": null
+    },
+    {
+      "id": 3,
+      "payment_request_id": 2,
+      "member_id": 2,
+      "status": "pending",
+      "confirmation_token": "54d367cd-bcc4-4043-980a-4889e9bb4e37",
+      "notified_at": null,
+      "reminder_sent_at": null,
+      "paid_at": null
+    },
+    {
+      "id": 4,
+      "payment_request_id": 2,
+      "member_id": 1,
+      "status": "pending",
+      "confirmation_token": "6560a4c2-c063-478f-91e7-a170df178325",
+      "notified_at": null,
+      "reminder_sent_at": null,
+      "paid_at": null
+    },
+    {
+      "id": 5,
+      "payment_request_id": 3,
+      "member_id": 3,
+      "status": "pending",
+      "confirmation_token": "0f59211c-6c64-4564-84a9-1a4473ec846a",
+      "notified_at": "2026-04-01T05:43:31.804Z",
+      "reminder_sent_at": null,
+      "paid_at": null
+    },
+    {
+      "id": 6,
+      "payment_request_id": 3,
+      "member_id": 2,
+      "status": "pending",
+      "confirmation_token": "42c096b0-0233-45c1-a63f-30d82f2313be",
+      "notified_at": "2026-04-01T05:43:33.260Z",
+      "reminder_sent_at": null,
+      "paid_at": null
+    },
+    {
+      "id": 7,
+      "payment_request_id": 3,
+      "member_id": 1,
+      "status": "pending",
+      "confirmation_token": "2490a338-9fd6-4f59-ac24-e97842f65087",
+      "notified_at": "2026-04-01T06:11:07.279Z",
+      "reminder_sent_at": null,
+      "paid_at": null
+    },
+    {
+      "id": 8,
+      "payment_request_id": 4,
+      "member_id": 3,
+      "status": "pending",
+      "confirmation_token": "6f88ee0c-59a1-481b-a6cf-641493f14e6f",
+      "notified_at": null,
+      "reminder_sent_at": null,
+      "paid_at": null,
+      "utr": null,
+      "payment_method": null
+    },
+    {
+      "id": 9,
+      "payment_request_id": 4,
+      "member_id": 2,
+      "status": "pending",
+      "confirmation_token": "dd38f087-1fac-4bc1-a3d7-c1e2617ac010",
+      "notified_at": null,
+      "reminder_sent_at": null,
+      "paid_at": null,
+      "utr": null,
+      "payment_method": null
+    },
+    {
+      "id": 10,
+      "payment_request_id": 4,
+      "member_id": 1,
+      "status": "pending",
+      "confirmation_token": "f73ccdea-5cea-4731-8faf-dc1e47b2cd87",
+      "notified_at": "2026-04-01T11:14:04.691Z",
+      "reminder_sent_at": null,
+      "paid_at": null,
+      "utr": null,
+      "payment_method": null
+    },
+    {
+      "id": 11,
+      "payment_request_id": 5,
+      "member_id": 3,
+      "status": "pending",
+      "confirmation_token": "baaa990d-9112-447e-a4e4-a9dc33554d9f",
+      "notified_at": "2026-04-01T11:24:49.495Z",
+      "reminder_sent_at": null,
+      "paid_at": null,
+      "utr": null,
+      "payment_method": null,
+      "screenshot_url": null
+    },
+    {
+      "id": 12,
+      "payment_request_id": 5,
+      "member_id": 2,
+      "status": "pending",
+      "confirmation_token": "22a9fc39-8188-49f7-b38d-e9e5bbb361f9",
+      "notified_at": null,
+      "reminder_sent_at": null,
+      "paid_at": null,
+      "utr": null,
+      "payment_method": null,
+      "screenshot_url": null
+    },
+    {
+      "id": 13,
+      "payment_request_id": 5,
+      "member_id": 1,
+      "status": "pending",
+      "confirmation_token": "b459d493-8e85-455e-a761-71829aa39809",
+      "notified_at": null,
+      "reminder_sent_at": null,
+      "paid_at": null,
+      "utr": null,
+      "payment_method": null,
+      "screenshot_url": null
+    }
+  ],
+  "counters": {
+    "members": 3,
+    "paymentRequests": 5,
+    "paymentStatuses": 13
+  }
+}
